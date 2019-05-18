@@ -2,15 +2,19 @@
 ## Front End Web Developer
 
 ## Table of Contents
-* [introduction](###introduction)
-* [dependencies](###dependencies)
-* [instructions](###instructions)
+- [Feed Reader Project](#feed-reader-project)
+  - [Front End Web Developer](#front-end-web-developer)
+  - [Table of Contents](#table-of-contents)
+    - [introduction](#introduction)
+    - [dependencies](#dependencies)
+    - [instructions](#instructions)
 
-###introduction
+### introduction
 * Use Jasmine to write a number of tests against a pre-existing application.
 * this project was built using HTML5, CSS3, Javascript. 
 
-###dependencies
+### dependencies
+
 Live Editing
 * Gulp
 * Browsersync
@@ -28,7 +32,7 @@ Javascript Optimization
 * gulp-eslint
 
 
-###instructions
+### instructions
 * clone this repo or download and extract via zip folder
 * open the folder
 * cd frontend-nanodegree-feedreader-master
