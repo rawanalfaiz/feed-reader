@@ -10,6 +10,7 @@ const concat         = require('gulp-concat');
 const uglify         = require('gulp-uglify');
 const babel          = require('gulp-babel');
 const sourcemaps     = require('gulp-sourcemaps');
+// const watch       = require('gulp-watch');
 
 //===========================================================================
 
@@ -32,6 +33,7 @@ gulp.task("default", ["styles" , "lint" , "copy-html" , "copy-js" , "copy-fonts"
     server: "./dist"
   });
 });
+
 
 gulp.task('dist', ["styles" , "lint" , "copy-html" , "copy-js" , "copy-fonts" , "scripts-dist", "tests"]);
 
